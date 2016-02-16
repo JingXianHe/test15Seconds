@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef NS_ENUM(NSInteger, THTrack) {
+    THVideoTrack = 0,
+    THTitleTrack,
+    THCommentaryTrack,
+    THMusicTrack
+};
 @interface ViewController : UIViewController
 
 
