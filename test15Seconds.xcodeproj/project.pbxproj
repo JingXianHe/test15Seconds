@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B182D3821C6F741E00238994 /* VideoItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B182D3811C6F741E00238994 /* VideoItemCell.m */; };
-		B182D3851C6F90BA00238994 /* THTimelineItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B182D3841C6F90BA00238994 /* THTimelineItemViewModel.m */; };
 		B19CF5101C6CC1F9001DBB70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CF50F1C6CC1F9001DBB70 /* main.m */; };
 		B19CF5131C6CC1F9001DBB70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CF5121C6CC1F9001DBB70 /* AppDelegate.m */; };
 		B19CF5161C6CC1F9001DBB70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CF5151C6CC1F9001DBB70 /* ViewController.m */; };
@@ -17,6 +16,8 @@
 		B19CF51E1C6CC1F9001DBB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19CF51C1C6CC1F9001DBB70 /* LaunchScreen.storyboard */; };
 		B19CF5291C6CC1FA001DBB70 /* test15SecondsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CF5281C6CC1FA001DBB70 /* test15SecondsTests.m */; };
 		B1FAEA051C6DA33A004E140F /* THVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FAEA041C6DA33A004E140F /* THVideoItem.m */; };
+		FF6E423A1C7813980062BA47 /* THTransitionInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6E42391C7813980062BA47 /* THTransitionInstructions.m */; };
+		FF6E423D1C7814620062BA47 /* THVideoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6E423C1C7814620062BA47 /* THVideoTransition.m */; };
 		FF89E4641C72CB480013E552 /* THAudioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89E4631C72CB480013E552 /* THAudioItem.m */; };
 		FF9B38EE1C71B6B70077E82F /* 01 Star Gazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FF9B38E31C71B6B50077E82F /* 01 Star Gazing.m4a */; };
 		FF9B38EF1C71B6B70077E82F /* 02 Keep Going.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FF9B38E41C71B6B60077E82F /* 02 Keep Going.m4a */; };
@@ -42,8 +43,6 @@
 /* Begin PBXFileReference section */
 		B182D3801C6F741E00238994 /* VideoItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoItemCell.h; sourceTree = "<group>"; };
 		B182D3811C6F741E00238994 /* VideoItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoItemCell.m; sourceTree = "<group>"; };
-		B182D3831C6F90BA00238994 /* THTimelineItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTimelineItemViewModel.h; sourceTree = "<group>"; };
-		B182D3841C6F90BA00238994 /* THTimelineItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTimelineItemViewModel.m; sourceTree = "<group>"; };
 		B19CF50B1C6CC1F9001DBB70 /* test15Seconds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test15Seconds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19CF50F1C6CC1F9001DBB70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B19CF5111C6CC1F9001DBB70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +60,10 @@
 		B19CF5351C6CC1FA001DBB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1FAEA031C6DA33A004E140F /* THVideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THVideoItem.h; sourceTree = "<group>"; };
 		B1FAEA041C6DA33A004E140F /* THVideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THVideoItem.m; sourceTree = "<group>"; };
+		FF6E42381C7813980062BA47 /* THTransitionInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTransitionInstructions.h; sourceTree = "<group>"; };
+		FF6E42391C7813980062BA47 /* THTransitionInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTransitionInstructions.m; sourceTree = "<group>"; };
+		FF6E423B1C7814620062BA47 /* THVideoTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THVideoTransition.h; sourceTree = "<group>"; };
+		FF6E423C1C7814620062BA47 /* THVideoTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THVideoTransition.m; sourceTree = "<group>"; };
 		FF89E4621C72CB480013E552 /* THAudioItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAudioItem.h; sourceTree = "<group>"; };
 		FF89E4631C72CB480013E552 /* THAudioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAudioItem.m; sourceTree = "<group>"; };
 		FF9B38E31C71B6B50077E82F /* 01 Star Gazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Star Gazing.m4a"; sourceTree = "<group>"; };
@@ -129,8 +132,10 @@
 				B182D3811C6F741E00238994 /* VideoItemCell.m */,
 				FF89E4621C72CB480013E552 /* THAudioItem.h */,
 				FF89E4631C72CB480013E552 /* THAudioItem.m */,
-				B182D3831C6F90BA00238994 /* THTimelineItemViewModel.h */,
-				B182D3841C6F90BA00238994 /* THTimelineItemViewModel.m */,
+				FF6E423B1C7814620062BA47 /* THVideoTransition.h */,
+				FF6E423C1C7814620062BA47 /* THVideoTransition.m */,
+				FF6E42381C7813980062BA47 /* THTransitionInstructions.h */,
+				FF6E42391C7813980062BA47 /* THTransitionInstructions.m */,
 			);
 			path = test15Seconds;
 			sourceTree = "<group>";
@@ -320,11 +325,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19CF5161C6CC1F9001DBB70 /* ViewController.m in Sources */,
+				FF6E423A1C7813980062BA47 /* THTransitionInstructions.m in Sources */,
 				B19CF5131C6CC1F9001DBB70 /* AppDelegate.m in Sources */,
 				B182D3821C6F741E00238994 /* VideoItemCell.m in Sources */,
+				FF6E423D1C7814620062BA47 /* THVideoTransition.m in Sources */,
 				B1FAEA051C6DA33A004E140F /* THVideoItem.m in Sources */,
 				FF89E4641C72CB480013E552 /* THAudioItem.m in Sources */,
-				B182D3851C6F90BA00238994 /* THTimelineItemViewModel.m in Sources */,
 				B19CF5101C6CC1F9001DBB70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -440,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
